@@ -1,7 +1,5 @@
 void main(List<String> args) {
-  var a = [-9, 10, -3];
-  
-  print(a.elementAt(0));
-  print(a.elementAt(1));
-
+  var lists=[-9,10,-3];
+  lists.removeLast();
+  print(lists);   // [-9, 10]
 }

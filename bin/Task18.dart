@@ -1,9 +1,9 @@
 void main(List<String> args) {
   var a = 7;
-  if (a%2==0) {
-    print("Juft");
+  if (a.isOdd) {
+    print("Juft".toUpperCase());
   }
   else{
-    print("Toq");
+    print("Toq".toUpperCase());
   }
 }
